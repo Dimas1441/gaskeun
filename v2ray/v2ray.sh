@@ -146,7 +146,7 @@ cat> /etc/v2ray/none.json << END
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/DhanZaa",
+          "path": "/brody",
           "headers": {
             "Host": ""
           }
