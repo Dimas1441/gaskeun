@@ -60,6 +60,6 @@ menu
 *)
 echo "Masukkan Nomor Yang Ada!"
 sleep 1
-panel-port
+change-port
 ;;
 esac
