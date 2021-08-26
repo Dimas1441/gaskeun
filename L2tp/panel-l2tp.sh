@@ -56,6 +56,6 @@ menu
 *)
 echo -e "${red}Nomor Yang Anda Masukkan Salah!${off}"
 sleep 1
-panel-lt2p
+panel-l2tp
 ;;
 esac
