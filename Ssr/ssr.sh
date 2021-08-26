@@ -140,6 +140,6 @@ Start_SSR
 Install_SSR
 touch /usr/local/shadowsocksr/akun.conf
 echo -e "Done Install ShadowSocksR" | lolcat
-figlet -f slant KANG BRODY | lolcat
+figlet -f slant SHADOWSOCKS-R | lolcat
 sleep 1
 rm -f /root/ssr.sh
