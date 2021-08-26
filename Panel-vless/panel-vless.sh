@@ -44,6 +44,6 @@ menu
 *)
 echo "Nomor Yang Anda Masukkan Salah!"
 sleep 1
-vls
+panel-vless
 ;;
 esac
