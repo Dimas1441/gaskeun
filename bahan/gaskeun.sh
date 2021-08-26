@@ -55,7 +55,7 @@ figlet -f slant Install SET-BR | lolcat
 wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/set-br/set-br.sh && dos2unix set-br.sh && chmod +x set-br.sh && ./set-br.sh
 #BAHAN
 figlet -f slant Install BAHAN | lolcat
-wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/install.sh && chmod +x install.sh && ./install.sh
+wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/install.sh && dos2unix install.sh && chmod +x install.sh && ./install.sh
 
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
