@@ -24,15 +24,15 @@ touch /etc/trojan-go/uuid.txt
 mkdir -p /etc/trojan-go/
 chmod 777 /etc/trojan-go/
 touch /etc/trojan-go/trojan-go.pid
-wget -O /etc/trojan-go/trojan-go https://raw.githubusercontent.com/Afdhan/CDN/main/A/I/U/E/O/trojan-go
-wget -O /etc/trojan-go/geoip.dat https://raw.githubusercontent.com/Afdhan/CDN/main/A/I/U/E/O/geoip.dat
-wget -O /etc/trojan-go/geosite.dat https://raw.githubusercontent.com/Afdhan/CDN/main/A/I/U/E/O/geosite.dat
+wget -O /etc/trojan-go/trojan-go https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Trojan-go/trojan-go
+wget -O /etc/trojan-go/geoip.dat https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Trojan-go/geoip.dat
+wget -O /etc/trojan-go/geosite.dat https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Trojan-go/geosite.dat
 chmod +x /etc/trojan-go/trojan-go
 cat <<EOF > /etc/trojan-go/config.json
 {
     "run_type": "server",
     "local_addr": "0.0.0.0",
-    "local_port": 2053,
+    "local_port": 2096,
     "remote_addr": "127.0.0.1",
     "remote_port": 81,
     "log_level": 1,
@@ -59,7 +59,7 @@ cat <<EOF > /etc/trojan-go/config.json
     "reuse_session": true,
     "plain_http_response": "",
     "fallback_addr": "127.0.0.1",
-    "fallback_port": 2053,
+    "fallback_port": 2096,
     "fingerprint": ""
   },
   "tcp": {
