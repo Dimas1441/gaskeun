@@ -48,12 +48,10 @@ bln2=$(date +"%b")
 thn2=$(date +"%Y")
 tnggl="$tgl2 $bln2, $thn2"
 sed -i '/"'""$uuid1""'"$/a\,"'""$users""'"' /etc/trojan-go/config.json
-sed -i '/"'""$uuid2""'"$/a\,"'""$user2""'"' /etc/trojan/config.json
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
 echo -e "### $user $exp" >> /etc/trojan-go/akun.conf
-echo -e "### $user $exp" >> /etc/trojan/akun.conf
 systemctl restart trojan-go
-trojangolink="trojan-go://${users}@${domain}:${trojango}/?sni=${domain}&type=ws&host=${domain}&path=/DhanZaa&encryption=none#${user}"
+trojangolink="trojan-go://${users}@${domain}:${trojango}/?sni=${domain}&type=ws&host=${domain}&path=/brody&encryption=none#${user}"
 cat > client.json << END
 {
     "run_type": "client",
