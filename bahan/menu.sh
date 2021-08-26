@@ -89,7 +89,7 @@ echo -e "${cyan}"
 echo -e " 1 =>  Panel SSH & OVPN         5 =>  Panel SSR & Shadowsocks"
 echo -e " 2 =>  Panel Wireguard          6 =>  Panel VMess"
 echo -e " 3 =>  Panel L2TP & PPTP        7 =>  Panel VLess"
-echo -e " 4 =>  Panel SSTP               8 =>  Panel Trojan"
+echo -e " 4 =>  Panel SSTP               8 =>  Panel Trojan & Trojan-go"
 echo -e "${off}"
 echo -e "${red}══════════════════════════════════════════════════════════${NC}"
 echo -e "                        MENU SYSTEM " | lolcat
@@ -120,31 +120,31 @@ panel-ssh
 ;;
 
 2)
-wgg
+panel-wireguard
 ;;
 
 3)
-ltp
+panel-l2tp
 ;;
 
 4)
-ssstp
+panel-sstp
 ;;
 
 5)
-sssr
+panel-ssr
 ;;
 
 6)
-wss
+panel-vmess
 ;;
 
 7)
-vls
+panel-vless
 ;;
 
 8)
-trj
+panel-trojan
 ;;
 
 9)
@@ -160,7 +160,7 @@ certv2ray
 ;;
 
 12)
-change-port
+panel-port
 ;;
 
 13)
