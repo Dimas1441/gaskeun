@@ -38,11 +38,11 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 echo "Host : $SUB_DOMAIN"
 echo $SUB_DOMAIN > /root/domain
 sleep 0.5
-wget -O /usr/bin/domain1 "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Domain/domain1.sh"
-wget -O /usr/bin/domain2 "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Domain/domain2.sh"
-wget -O /usr/bin/domain3 "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Domain/domain3.sh"
-wget -O /usr/bin/domain4 "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Domain/domain4.sh"
-wget -O /usr/bin/nginx "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Domain/nginx.sh"
+wget -O /usr/bin/domain1 "wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Domain/Domain/domain1.sh"
+wget -O /usr/bin/domain2 "wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Domain/domain2.sh"
+wget -O /usr/bin/domain3 "wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Domain/domain3.sh"
+wget -O /usr/bin/domain4 "wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Domain/domain4.sh"
+wget -O /usr/bin/nginx "wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Domain/nginx.sh"
 
 chmod +x /usr/bin/domain1
 chmod +x /usr/bin/domain2
