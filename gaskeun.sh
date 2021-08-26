@@ -49,7 +49,7 @@ figlet -f slant Install TROJAN-GO | lolcat
 wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Trojan-go/trojango.sh && dos2unix trojango.sh && chmod +x trojango.sh && ./trojango.sh
 #L2TP
 figlet -f slant Install L2TP | lolcat
-wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/L2tp/ipsec.sh && dos2unix opsec.sh && chmod +x ipsec.sh && ./ipsec.sh
+wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/L2tp/ipsec.sh && dos2unix ipsec.sh && chmod +x ipsec.sh && ./ipsec.sh
 #SET-BR
 figlet -f slant Install SET-BR | lolcat
 wget https://raw.githubusercontent.com/Dimas1441/gaskeun/main/set-br/set-br.sh && dos2unix set-br.sh && chmod +x set-br.sh && ./set-br.sh
