@@ -49,7 +49,7 @@ sed -i "s/### $user $exp/### $user $exp4/g" /usr/local/shadowsocksr/akun.conf
 clear
 echo ""
 echo "  Akun SSR Berhasil Diperbarui"
-echo "${off}==========================${off}" | lolcat
+echo "${red}==========================${off}" | lolcat
 echo "${white}Username : $user"
 echo "Aktif Sampai : $expe${off}"
 echo "${red}==========================${off}" | lolcat

@@ -85,7 +85,7 @@ echo -e " Protocol      : ${ssr_protocol}"
 echo -e " Obfs          : ${ssr_obfs}"
 echo -e " Device limit  : ${ssr_protocol_param}${off}"
 echo -e "${red}=================================${off}"
-echo -e "${white}~> LINK  SSR${off}"
+echo -e "${white} LINK  SSR${off}"
 echo -e "${ssr_link1}" | lolcat
 echo -e ""
 echo -e "${ssr_link2}" | lolcat
