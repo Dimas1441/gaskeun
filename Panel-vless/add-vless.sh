@@ -55,6 +55,7 @@ vlesslink2="vless://${uuid}@${domain}:$none?path=/brody&encryption=none&type=ws#
 systemctl restart v2ray@vless
 systemctl restart v2ray@vnone
 clear
+clear
 echo -e ""
 echo -e "${red}=================================${off}"
 echo -e "${white} V2RAY VLESS${off}"
@@ -70,18 +71,14 @@ echo -e " ID             : ${uuid}"
 echo -e " Encryption     : none"
 echo -e " Network        : ws"
 echo -e " Path           : /brody${off}"
-echo -e "${cyan}=================================${off}"
-echo -e "${purple}~> VLESS TLS${off}"
-echo -e ""
-echo -e "${vlesslink1}" | lolcat
-echo -e ""
 echo -e "${red}=================================${off}"
-echo -e "${white} VLESS NON-TLS${off}"
-echo -e ""
+echo -e "${white}VLESS TLS${off}"
+echo -e "${vlesslink1}" | lolcat
+echo -e "${red}=================================${off}"
+echo -e "${white}VLESS NON-TLS${off}"
 echo -e "${vlesslink2}" | lolcat
 echo -e "${red}=================================${off}"
 echo -e " ${white}Aktif Selama   : $masaaktif Hari"
 echo -e " Dibuat Pada    : $tnggl"
 echo -e " Berakhir Pada  : $expe${off}"
 echo -e "${red}=================================${off}"
-echo -e ""
