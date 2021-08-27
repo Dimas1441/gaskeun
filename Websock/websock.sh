@@ -93,20 +93,27 @@ Restart=on-failure
 WantedBy=multi-user.target
 END
 
-# Exec Start
+cd
 systemctl daemon-reload
-
-# Activated
-systemctl enable ws-dropbear.service
+#Enable & Start & Restart ws-openssh service
 systemctl enable ws-openssh.service
-systemctl enable ws-openvpn.service
-systemctl enable ws-stunnel.service
-
-# Restart
-systemctl restart ws-dropbear.service
+systemctl start ws-openssh.service
 systemctl restart ws-openssh.service
-systemctl restart ws-openvpn.service
+
+#Enable & Start & Restart ws-openssh service
+systemctl enable ws-dropbear.service
+systemctl start ws-dropbear.service
+systemctl restart ws-dropbear.service
+
+#Enable & Start & Restart ws-openssh service
+systemctl enable ws-stunnel.service
+systemctl start ws-stunnel.service
 systemctl restart ws-stunnel.service
+
+#Enable & Start ws-ovpn service
+systemctl enable ws-ovpn.service
+systemctl start ws-ovpn.service
+systemctl restart ws-ovpn.service
 
 #BadVPN WS
 wget https://github.com/ambrop72/badvpn/archive/master.zip
