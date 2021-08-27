@@ -58,7 +58,8 @@ cat > client.json << END
     "local_addr": "127.0.0.1",
     "local_port": 1080,
     "remote_addr": "${domain}",
-    "remote_port": ${trojango},
+    "remote_port": "${trojango}",
+
     "dns": [
         "1.1.1.1"
     ],
@@ -79,7 +80,7 @@ mv client.json /home/vps/public_html/${user}-IgniterGO.json
 clear
 echo -e ""
 echo -e "${red}=================================${off}"
-echo -e "${white} TROJAN GO${off}"
+echo -e "${white}            TROJAN GO${off}"
 echo -e "${red}=================================${off}"
 echo -e " ${green}ISP                : ${ISP}"
 echo -e " CITY               : ${CITY}"
@@ -87,20 +88,15 @@ echo -e " COUNTRY            : ${COUNTRY}"
 echo -e " Remarks            : ${user}"
 echo -e " Host               : ${domain}"
 echo -e " Port Trojan-GO     : ${trojango}"
-echo -e " Key Trojan-GO      : ${keyy}"
+echo -e " Key Trojan-GO    : ${keyy}"
 echo -e " Password Igniter   : ${users}"
 echo -e " Path WebSocket     : /brody${off}"
 echo -e "${red}=================================${off}"
-echo -e ""
 echo -e " Trojan-GO   : ${trojangolink}" | lolcat
-echo -e ""
 echo -e "${red}=================================${off}"
-echo -e ""
 echo -e " Igniter-GO  : http://${domain}:81/${user}-IgniterGO.json" | lolcat
-echo -e ""
 echo -e "${red}=================================${off}"
 echo -e " ${white}Aktif Selama   : $masaaktif Hari"
 echo -e " Dibuat Pada    : $tnggl"
 echo -e " Berakhir Pada  : $expe${off}"
 echo -e "${red}=================================${off}"
-echo -e ""
