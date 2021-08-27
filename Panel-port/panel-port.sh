@@ -25,7 +25,7 @@ echo -e "     9 =>  Keluar"
 echo -e "${off}"
 echo -e "${red}======================================${off}"
 echo -e "${white}"
-read -p "     Pilih Nomor [1-8 / x] :  " port
+read -p "     Pilih Nomor [1-9 / x] :  " port
 echo -e "${off}"
 
 case $port in
