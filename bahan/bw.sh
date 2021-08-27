@@ -7,9 +7,6 @@ white='\x1b[37m'
 bold='\033[1m'
 off='\x1b[m'
 
-
-baris2="  - Powered By Dhansss X NezaVPN "
-
 echo -e ""
 echo -e "${red}======================================${off}"
 echo -e        "           BANDWITH MONITOR " | lolcat

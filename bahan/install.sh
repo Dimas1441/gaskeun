@@ -22,7 +22,9 @@ wget -O /usr/bin/renew-ssr https://raw.githubusercontent.com/Dimas1441/gaskeun/m
 #l2tp
 figlet -f slant Install Module L2TP | lolcat
 sleep 1
-wget -O /usr/bin/ panel-l2tp https://raw.githubusercontent.com/Dimas1441/gaskeun/main/panel-l2tp.sh && chmod +x /usr/bin/panel-l2tp
+cd /usr/bin
+wget -O panel-l2tp "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/L2tp/panel-l2tp.sh"
+chmod +x /usr/bin/panel-l2tp
 wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/Dimas1441/gaskeun/main/L2tp/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
 wget -O /usr/bin/del-l2tp https://raw.githubusercontent.com/Dimas1441/gaskeun/main/L2tp/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
 wget -O /usr/bin/renew-l2tp https://raw.githubusercontent.com/Dimas1441/gaskeun/main/L2tp/renew-l2tp.sh && chmod +x /usr/bin/renew-l2tp
@@ -109,7 +111,7 @@ chmod +x tendang
 #PANEL V2RAY VMESS
 figlet -f slant Install Module V2RAY VMESS | lolcat
 cd /usr/bin
-wget -O panel-vmess "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Panel-vmess/wss.sh"
+wget -O panel-vmess "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Panel-vmess/panel-vmess.sh"
 wget -O add-ws "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Panel-vmess/add-ws.sh"
 wget -O del-ws "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Panel-vmess/del-ws.sh"
 wget -O cek-ws "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Panel-vmess/cek-ws.sh"
@@ -152,6 +154,7 @@ wget -O add-trgo "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Panel
 wget -O del-trgo "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Panel-trojan/del-trgo.sh"
 wget -O renew-trgo "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Panel-trojan/renew-trgo.sh"
 wget -O cek-trgo "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/Panel-trojan/cek-trgo.sh"
+dos2unix panel-trojan
 chmod +x panel-trojan
 chmod +x add-tr
 chmod +x del-tr
@@ -175,7 +178,7 @@ chmod +x panel-wireguard
 chmod +x add-wg
 chmod +x del-ws
 chmod +x cek-wg
-chmod +x renew.wg
+chmod +x renew-wg
 
 #bahan
 figlet -f slant Install Module MENU | lolcat
@@ -186,7 +189,7 @@ wget -O add-host "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan
 wget -O about "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/about.sh"
 wget -O menu "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/menu.sh"
 wget -O ram "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/ram.sh"
-wget -O wbmn "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/webmin.sh"
+wget -O wbmn "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/wbmn.sh"
 wget -O xp "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/xp.sh"
 wget -O xp-ws "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/xp-ws.sh"
 wget -O xp-trgo "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/xp-trgo.sh"
@@ -201,12 +204,12 @@ chmod +x xp-ws
 chmod +x xp-trgo
 wget -O restart "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/restart.sh"
 wget -O info "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/info.sh"
-wget -O speedtest "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/speedtest_cli.py"
+wget -O speedtest "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/speedtest.py"
 wget -O updatee "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/updatee.sh"
-wget -O hostnya "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/host.sh"
+wget -O hostnya "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/hostnya.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/auto-reboot.sh"
 wget -O status "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/status.sh"
-wget -O bw "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/bandwith.sh"
+wget -O bw "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/bw.sh"
 wget -O clear-log "https://raw.githubusercontent.com/Dimas1441/gaskeun/main/bahan/clear-log.sh"
 chmod +x restart
 chmod +x info

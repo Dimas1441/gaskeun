@@ -11,6 +11,7 @@ systemctl restart v2ray@none
 systemctl restart v2ray@vless
 systemctl restart v2ray@vnone
 systemctl restart trojan
+systemctl restart trojan-go
 systemctl restart ipsec
 systemctl restart shadowsocks-libev
 systemctl restart ssrmu

@@ -21,4 +21,3 @@ echo > /var/log/syslog
 echo > /var/log/btmp
 echo > /var/log/messages
 echo > /var/log/debug
-echo -e "By Dhansss X NezaVPN"
